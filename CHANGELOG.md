@@ -8,6 +8,14 @@ and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 This changelog is generated automatically based on [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
+## [0.1.0](https://github.com/GoogleCloudPlatform/terraform-google-agent-gateway/compare/v0.0.3...v0.1.0) (2026-03-24)
+
+
+### Features
+
+* add release-please and lint workflows ([dcdfe9c](https://github.com/GoogleCloudPlatform/terraform-google-agent-gateway/commit/dcdfe9c54d05cdc4701f5633f583b5962507c005))
+* check release-please connectivity ([547bbea](https://github.com/GoogleCloudPlatform/terraform-google-agent-gateway/commit/547bbea6207c38914fd0ddfc7756262253b0c7ca))
+
 ## [0.1.0](https://github.com/terraform-google-modules/terraform-google-agent-gateway/releases/tag/v0.1.0) - 20XX-YY-ZZ
 
 ### Features
