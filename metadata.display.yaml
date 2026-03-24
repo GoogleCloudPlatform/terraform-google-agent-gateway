@@ -22,7 +22,7 @@ spec:
   info:
     title: Google Network Services Agent Gateway Module
     source:
-      repo: https://github.com/Daisyprakash/agent-gateway.git
+      repo: https://github.com/GoogleCloudPlatform/terraform-google-agent-gateway.git
       sourceType: git
   ui:
     input:
