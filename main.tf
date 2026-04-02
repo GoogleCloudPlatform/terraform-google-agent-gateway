@@ -15,7 +15,7 @@
  */
 
 resource "google_network_services_agent_gateway" "main" {
-  provider = google-beta
+  provider = google-nightly
 
   project     = var.project_id
   location    = var.location

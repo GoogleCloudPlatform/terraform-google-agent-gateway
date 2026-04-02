@@ -26,6 +26,10 @@ terraform {
       source  = "hashicorp/google-beta"
       version = ">= 7.20.0" # Updated to support the Agent Gateway release
     }
+    google-nightly = {
+      source  = "hashicorp/google-nightly"
+      version = "2026.3.26-7.25.0"
+    }
   }
 
   provider_meta "google-beta" {
