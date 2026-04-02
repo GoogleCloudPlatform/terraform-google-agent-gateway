@@ -24,7 +24,7 @@ spec:
     source:
       repo: https://github.com/GoogleCloudPlatform/terraform-google-agent-gateway.git
       sourceType: git
-    version: 0.2.0
+    version: 0.3.0
     actuationTool:
       flavor: Terraform
       version: ">= 1.3"
@@ -100,16 +100,22 @@ spec:
       - name: root_certificates
         description: Root Certificates for Agents to validate this AgentGateway.
         type:
-          - list: string
+          - list
+          - string
       - name: service_extensions_account
         description: Service Account used by Service Extensions to operate.
+        type: string
   requirements:
     roles:
       - level: Project
         roles:
-          - roles/owner
+          - roles/networkservices.admin
+          - roles/iam.serviceAccountUser
+          - roles/compute.networkAdmin
     services:
       - networkservices.googleapis.com
+      - compute.googleapis.com
+      - networksecurity.googleapis.com
     providerVersions:
       - source: hashicorp/google
         version: ">= 7.20.0"
