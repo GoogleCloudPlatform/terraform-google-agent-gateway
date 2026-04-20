@@ -8,6 +8,13 @@ and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 This changelog is generated automatically based on [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
+## [0.4.2](https://github.com/GoogleCloudPlatform/terraform-google-agent-gateway/compare/v0.4.1...v0.4.2) (2026-04-20)
+
+
+### Bug Fixes
+
+* added agent registry api and role ([42b91bb](https://github.com/GoogleCloudPlatform/terraform-google-agent-gateway/commit/42b91bb57fb5921cbed9aba40207724213483630))
+
 ## [0.4.1](https://github.com/GoogleCloudPlatform/terraform-google-agent-gateway/compare/v0.4.0...v0.4.1) (2026-04-09)
 
 
