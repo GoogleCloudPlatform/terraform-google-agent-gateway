@@ -114,10 +114,12 @@ spec:
           - roles/networkservices.admin
           - roles/compute.networkAdmin
           - roles/iam.serviceAccountUser
+          - roles/agentregistry.admin
     services:
       - networkservices.googleapis.com
       - compute.googleapis.com
       - networksecurity.googleapis.com
+      - agentregistry.googleapis.com
     providerVersions:
       - source: hashicorp/google
         version: ">= 7.20.0"
