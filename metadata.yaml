@@ -24,7 +24,7 @@ spec:
     source:
       repo: https://github.com/GoogleCloudPlatform/terraform-google-agent-gateway.git
       sourceType: git
-    version: 0.4.2
+    version: 0.4.3
     actuationTool:
       flavor: Terraform
       version: ">= 1.3"
@@ -126,4 +126,4 @@ spec:
       - source: hashicorp/google-beta
         version: ">= 7.20.0"
       - source: hashicorp/google-nightly
-        version: 2026.4.8-7.27.0
+        version: 0.4.3.27.0
