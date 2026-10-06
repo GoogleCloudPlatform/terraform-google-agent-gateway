@@ -63,15 +63,19 @@ spec:
       - name: description
         description: A free-text description of the resource.
         varType: string
+        defaultValue: null
       - name: google_managed_governed_access_path
         description: "Operating Mode of Agent Gateway when using Google Managed deployment. Conflicts with self_managed_resource_uri. Possible values: AGENT_TO_ANYWHERE, CLIENT_TO_AGENT."
         varType: string
+        defaultValue: null
       - name: self_managed_resource_uri
         description: A supported Google Cloud networking proxy URI in the Project and Location when using Self Managed deployment. Conflicts with google_managed_governed_access_path.
         varType: string
+        defaultValue: null
       - name: network_config_egress_network_attachment
         description: "The URI of the Network Attachment resource for egress in network_config. Format: projects/{project}/regions/{region}/networkAttachments/{name}"
         varType: string
+        defaultValue: null
       - name: timeout_create
         description: Timeout for creation.
         varType: string
@@ -91,6 +95,7 @@ spec:
       - name: agent_gateway_p4sa
         description: The Agent Gateway P4SA in the consumer project.
         varType: string
+        defaultValue: null
     outputs:
       - name: agent_gateway_id
         description: The full resource ID of the Agent Gateway.
